@@ -34,6 +34,7 @@ import com.power.doc.constants.DocGlobalConstants;
  */
 public class DocUrlUtil {
 
+    @SuppressWarnings("introduce.eliminate") // introduce-eliminate : unnecessary optional instantiation
     public static String getMvcUrls(String baseServer, String baseUrl, List<String> urls) {
         StringBuilder sb = new StringBuilder();
         List<String> baseUrls = DocUtil.split(baseUrl);
