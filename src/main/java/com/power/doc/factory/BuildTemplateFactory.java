@@ -30,6 +30,12 @@ import com.power.doc.template.IDocBuildTemplate;
  */
 public class BuildTemplateFactory {
 
+    int foo;
+    // SpotBugs should trigger an exception here: hhttps://spotbugs.readthedocs.io/en/latest/bugDescriptions.html#sa-self-assignment-of-local-rather-than-assignment-to-field-sa-local-self-assignment-instead-of-field
+    public void setFoo(int foo) {
+        foo = foo;
+    }
+
     /**
      * Get Doc build template
      *
