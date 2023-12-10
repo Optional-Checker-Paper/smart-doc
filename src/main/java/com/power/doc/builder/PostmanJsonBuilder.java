@@ -137,7 +137,7 @@ public class PostmanJsonBuilder {
 
     }
 
-    @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate : unnecessary optional instantiation
+    @SuppressWarnings("optional:introduce.eliminate") // introduce-eliminate
     private static UrlBean buildUrlBean(ApiMethodDoc apiMethodDoc) {
         UrlBean urlBean = new UrlBean(apiMethodDoc.getServerUrl());
         String url = Optional.ofNullable(apiMethodDoc.getRequestExample().getUrl()).orElse(apiMethodDoc.getUrl());
