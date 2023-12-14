@@ -193,7 +193,6 @@
               </annotationProcessorPaths>
               <annotationProcessors>
                 <!-- Add all the checkers you want to enable here -->
-                <annotationProcessor>org.checkerframework.checker.optional.OptionalChecker</annotationProcessor>
                 <annotationProcessor>org.checkerframework.common.util.count.report.ReportChecker</annotationProcessor>
               </annotationProcessors>
               <compilerArgs>
