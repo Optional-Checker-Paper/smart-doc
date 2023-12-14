@@ -1,0 +1,84 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.github.shalousun:smart-doc >-------------------
+[INFO] Building smart-doc 2.7.6
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ smart-doc ---
+[INFO] Copying 33 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ smart-doc ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 153 source files with javac [forked debug target 1.8] to target/classes
+[WARNING] [options] bootstrap class path not set in conjunction with -source 8
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/model/ApiConfig.java:[627,35] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/model/ApiConfig.java:[627,28] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUrlUtil.java:[44,84] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUrlUtil.java:[44,77] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUrlUtil.java:[44,49] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUrlUtil.java:[44,38] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUrlUtil.java:[47,94] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUrlUtil.java:[47,87] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUrlUtil.java:[47,52] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUrlUtil.java:[47,41] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/builder/PostmanJsonBuilder.java:[142,90] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/builder/PostmanJsonBuilder.java:[142,83] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/builder/PostmanJsonBuilder.java:[142,40] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/builder/PostmanJsonBuilder.java:[142,29] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[856,119] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[856,112] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[856,94] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[856,90] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[856,59] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[856,55] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[856,38] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[856,27] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[993,128] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[993,121] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[993,100] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[993,96] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[993,84] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[993,73] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[1010,124] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[1010,117] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[1010,96] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[1010,92] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[1010,80] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/DocUtil.java:[1010,69] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[412,83] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[412,73] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[412,58] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[412,47] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[447,79] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[447,69] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[447,54] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[447,43] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[481,79] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[481,69] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[481,54] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[481,43] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[529,79] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[529,69] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[529,54] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[529,43] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[559,130] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[559,123] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[559,100] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[559,96] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[559,48] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/helper/ParamsBuildHelper.java:[559,37] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/JavaClassUtil.java:[365,104] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/JavaClassUtil.java:[365,97] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/JavaClassUtil.java:[401,128] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/JavaClassUtil.java:[401,121] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/JavaClassUtil.java:[401,100] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/JavaClassUtil.java:[401,96] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<U>map(java.util.function.Function<? super T,? extends U>) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/JavaClassUtil.java:[401,84] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[WARNING] /tmp/experiments/optional-paper-counts-repos/smart-doc/src/main/java/com/power/doc/utils/JavaClassUtil.java:[401,73] [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>ofNullable(T) [METHOD]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.784 s
+[INFO] Finished at: 2023-12-14T12:02:24-08:00
+[INFO] ------------------------------------------------------------------------
