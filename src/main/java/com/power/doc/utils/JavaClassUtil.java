@@ -381,6 +381,7 @@ public class JavaClassUtil {
      * @author chen qi
      * @since 1.0.0
      */
+    @SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
     public static EnumInfo getEnumInfo(JavaClass javaClass, ProjectDocConfigBuilder builder) {
         if (Objects.isNull(javaClass) || !javaClass.isEnum()) {
             return null;

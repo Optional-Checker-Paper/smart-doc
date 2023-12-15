@@ -68,6 +68,7 @@ import static com.power.doc.constants.DocGlobalConstants.*;
  */
 public class ParamsBuildHelper extends BaseHelper {
 
+    @SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
     public static List<ApiParam> buildParams(String className, String pre, int level, String isRequired, boolean isResp
             , Map<String, String> registryClasses, ProjectDocConfigBuilder projectBuilder, Set<String> groupClasses
             , int pid, boolean jsonRequest, AtomicInteger atomicInteger) {
@@ -537,6 +538,7 @@ public class ParamsBuildHelper extends BaseHelper {
         return paramList;
     }
 
+    @SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
     private static List<ApiParam> buildMapParam(String[] globGicName, String pre, int level, String isRequired, boolean isResp,
                                                 Map<String, String> registryClasses,
                                                 ProjectDocConfigBuilder projectBuilder, Set<String> groupClasses, int pid, boolean jsonRequest,

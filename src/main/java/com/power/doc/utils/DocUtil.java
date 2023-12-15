@@ -839,6 +839,7 @@ public class DocUtil {
      * @param annotationValue annotationValue
      * @return annotation value
      */
+    @SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
     public static String resolveAnnotationValue(AnnotationValue annotationValue) {
         if (annotationValue instanceof Add) {
             Add add = (Add) annotationValue;
@@ -954,6 +955,7 @@ public class DocUtil {
      * @param javaProjectBuilder JavaProjectBuilder
      * @return list of ApiDocDict
      */
+    @SuppressWarnings("optional:introduce.eliminate") // style-introduce-eliminate
     public static List<ApiDocDict> buildDictionary(ApiConfig config, JavaProjectBuilder javaProjectBuilder) {
         List<ApiDataDictionary> apiDataDictionaryList = config.getDataDictionaries();
         if (CollectionUtil.isEmpty(apiDataDictionaryList)) {
